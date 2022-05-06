@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>KPIS</title>
+
+    <link href="https://kendo.cdn.telerik.com/2022.1.412/styles/kendo.common.min.css" rel="stylesheet" />
+    <link href="https://kendo.cdn.telerik.com/2022.1.412/styles/kendo.default.min.css" rel="stylesheet" />
+    <link href="C:\Users\User\Desktop\MiniProject\UII\css\style.css" rel="stylesheet" />
+    <script src="https://kendo.cdn.telerik.com/2022.1.412/js/jquery.min.js"></script>
+    <script src="https://kendo.cdn.telerik.com/2022.1.412/js/kendo.all.min.js"></script>
+    <script src="./scripts/script.js"></script>
+    <!--<script src="https://kendo.cdn.telerik.com/2022.1.412/js/messages/kendo.messages.fr-FR.min.js"></script>-->
+</head>
+
+<body>
+    <div class="centerButtons">
+        <select id="KPIS">
+            <option value="maX_RX_LEVEL">MAX RX LEVEL</option>
+            <option value="maX_TX_LEVEL">MAX TX LEVEL</option>
+            <option value="rsL_DEVIATION">RSL DEVIATION</option>
+          </select>
+    </div>
+    <div class="spacing">
+    <div id="KpisChart"></div>
+    </div>
+    <div class="filtering">
+        <label for="dateFrom">Date From:</label>
+        <input type="datetime-local" id="dateFrom">
+        <label for="dateTo">Date To:</label>
+        <input type="datetime-local" id="dateTo">
+        <button id="FilterDates"class="RoundButton">Filter</button>
+        <button id="clearGridFilter" class="RoundButton">Clear filter</button>
+        <button id="TimeFrame" class="RoundButton">Daily</button>
+    </div>
+    <div class="spacing">
+    <div id="KpisGrid" style="widows: 100px;"></div>
+    </div>
+</body>
+
+</html>

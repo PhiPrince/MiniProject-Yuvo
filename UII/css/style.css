@@ -1,0 +1,73 @@
+.RoundButton{
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:2em;
+    border:none;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    background-color:#4eb5f1;
+    text-align:center;
+    width:150px;
+    height: 40px;
+    font-size: large;
+}
+.RoundButton:hover{
+    background-color:#4095c6;
+}
+.centered{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100px;
+    font-size: 2.75em;
+}
+.radioButtons{
+    margin:0 auto;
+    width: 160px;
+}
+.centerButtons{
+    padding-top:7px;
+    padding-bottom: 7px;
+    margin:0 auto;
+    width: 200px;
+}
+.filtering{
+    padding-top:7px;
+    padding-bottom: 7px;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    margin:0 auto;
+    width: 1100px;
+}
+.centerDates{
+    padding-top:7px;
+    padding-bottom: 7px;
+    margin:0 auto;
+    width: 550px;
+}
+body{
+    background-color:cornflowerblue
+}
+.spacing{
+    background-color: white;
+    padding: 20px;
+}
+
+select{
+    width: 200px;
+    border: none;
+    padding: 7px;
+    font-size: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+input[type="datetime-local"]{
+    border-radius: 8px;
+    padding: 5px;
+}
